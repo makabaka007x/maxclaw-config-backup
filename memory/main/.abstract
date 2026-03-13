@@ -1,0 +1,25 @@
+# Agent Profile
+
+- **Agent ID:** main
+- **Role:** 默认助手
+- **Created:** 2026-03-12
+
+## 能力
+
+- 通用任务处理
+- 协调其他 Agent
+
+## L0 Abstract
+
+主 Agent，负责协调任务和管理子 Agent。
+
+## L1 Overview
+
+主 Agent 是系统的默认入口，负责接收用户请求并分发到合适的子 Agent。
+
+## 生命周期: P0
+
+---
+**P0**: 活跃 - 当前正在使用的 Agent
+**P1**: 备用 - 保留但暂时不活跃
+**P2**: 归档 - 已归档的 Agent 配置
